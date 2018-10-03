@@ -2,6 +2,6 @@
 
 salario = float(input("Digite o valor do seu salário:\n"))
 
-salario = salario * 1.25 + salario
+salario = salario * 0.25 + salario
 
 print("O seu salário depois do aumento é de R$",salario)
