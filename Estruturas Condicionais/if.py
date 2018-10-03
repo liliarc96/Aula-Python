@@ -7,7 +7,7 @@ else:
   
   
   
-  media = 7.0
+media = 7.0
 
 if media >= 7.0:
   print("Aprovado")
