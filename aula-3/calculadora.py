@@ -21,7 +21,7 @@ elif (codigo == 2):
 		subtracao = n1-n2
 	else:
 		subtracao = n2-n1
-	print("A diferença do maior pelo menir número é",subtracao)
+	print("A diferença do maior pelo menor número é",subtracao)
 elif (codigo == 3):
 	multiplicacao = n1*n2
 	print("O resultado do produto dos números é",multiplicacao)
