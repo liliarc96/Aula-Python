@@ -35,14 +35,14 @@ elif ((preco > 50) and (preco <= 100)):
 else:
 	preco = preco + preco * 0.15
 #Fim de Aumento de preço
-print("NOVO PREÇO =",preco)
+
 #Classificação
 if (preco <= 80):
-	print("BARATO!")
+	print("O novo preço é %.2f e a classificação é BARATO!"% (preco))
 elif ((preco > 80) and (preco <= 120)):
-	print("NORMAL!")
+	print("O novo preço é %.2f e a classificação é NORMAL!"% (preco))
 elif ((preco > 120) and (preco <= 200)):
-	print("CARO!")
+	print("O novo preço é %.2f e a classificação é CARO!"% (preco))
 else:
-	print("MUITO CARO!")
+	print("O novo preço é %.2f e a classificação é MUITO CARO!"% (preco))
 #Fim Classificação
