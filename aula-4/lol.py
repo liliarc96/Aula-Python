@@ -16,4 +16,17 @@ codigo = int(input("\nCÓDIGO          OPERAÇÃO\n1 ou 2    Informar o maior n�
 
 if(codigo == 1 or codigo == 2):
 	if(n1 > n2):
-		print("O maior número é",)
+		print("O maior número é",n1)
+	elif(n2 > n1):
+		print("O maior número é",n2)
+	else:
+		print("Os números são iguais.")
+elif(codigo == 3 or codigo == 4):
+	if(n1 < n2):
+		print("O menor número é",n1)
+	elif(n2 < n1):
+		print("O menor número é",n2)
+	else:
+		print("Os números são iguais.")
+else:
+	print("CÓDIGO ERRADO!")
