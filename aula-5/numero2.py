@@ -12,4 +12,6 @@ while numero != 0:
 	numero = int(input("Digite um número:"))
 	if numero == 2:
 		contador = contador + 1
-print("O número 2 foi digitado",contador, "vezes.")
+print("O número 2 foi digitado %i vezes." %(numero))
+
+#pyformat.info
