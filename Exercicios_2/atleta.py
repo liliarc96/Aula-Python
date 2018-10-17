@@ -19,3 +19,6 @@ while codigo != "nao" and codigo == "sim":
 
 	print("\nA sua velocidade foi de",velocidade,"metros por segundo.")
 	codigo = input("\nDeseja continuar a executar o programa?\n")
+
+if codigo != "sim" and codigo != "nao"
+	print("COMANDO INVÁLIDO!")
