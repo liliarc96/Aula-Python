@@ -6,9 +6,11 @@ exibe:
 positivo, ou “É negativo”, caso seja negativo;
 '''
 cont = 1
-
+#Em while
 while (cont <= 10):
 	numero = int(input("Digite um número:"))
+	numero = numero*3
+	print("O triplo desse número é",numero)
 	if (numero >= 0):
 		print("É positivo!")
 	else:
@@ -16,9 +18,11 @@ while (cont <= 10):
 	cont += 1
 
 cont_2 = 0
-
+#Em for
 for cont_2 in range (0,10):
 	numero = int(input("Digite um número:"))
+	numero = numero*3
+	print("O triplo desse número é",numero)
 	if (numero >= 0):
 		print("É positivo!")
 	else:
