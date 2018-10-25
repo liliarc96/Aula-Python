@@ -26,3 +26,14 @@ for cont in range (0,5):
 		print("\nCÓDIGO INVÁLIDO!")
 print("\nPessoas que responderam ótimo:",otimo,"\nPessoas que responderam bom:",bom,"\nPessoas que responderam regular:",regular)
 print("\nVotos inválidos: ",invalido)
+
+'''
+for i in range(5):
+	opcao = int(input("Opção: "))
+	if opcao == 1:
+		cont1 += 1
+	elif opcao == 2:
+		cont2 += 1
+	elif opcao == 3:
+		cont3 += 1
+'''
