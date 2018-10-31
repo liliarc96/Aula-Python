@@ -16,7 +16,7 @@ sum(numeros)
 max(numeros)
 #menor da lista
 min(numeros)
-#.append valor ao final, .insert escolhe a posição, .pop remove o último elemento
+#.append valor ao final, .insert escolhe a posição, .pop remove o último elemento ou o do argumento(.pop(4)), .remove remove o valor
 '''   
    len(numeros)
    
