@@ -16,3 +16,33 @@ sum(numeros)
 max(numeros)
 #menor da lista
 min(numeros)
+
+'''   
+   len(numeros)
+   
+=> 3
+   min(numeros)
+   
+=> 10
+   max(numeros)
+   
+=> 30
+   numeros[0] = 888
+   
+   max(numeros)
+   
+=> 888
+   sum(numeros)
+   
+=> 938
+   numeros.insert(2,88)
+   
+   numeros
+   
+=> [888, 20, 88, 30]
+   numeros.insert(0,88)
+   
+   numeros
+   
+=> [88, 888, 20, 88, 30]
+'''
