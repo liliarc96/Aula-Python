@@ -27,3 +27,4 @@ for rank in telespectadores:
 	elif rank == 1:
 		regular += 1
 print("\nA quantidade de pessoas que respondeu ótimo foi de:",otimo,"\nA quantidade de pessoas que respondeu bom foi de:",bom,"\nA quantidade de pessoas que respondeu regular foi de:",regular)
+.
