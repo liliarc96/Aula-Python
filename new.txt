@@ -1,0 +1,4 @@
+https://itch.io/jam/game-off-2018
+https://www.pygame.org/wiki/about
+https://godotengine.org/
+https://automatetheboringstuff.com/
